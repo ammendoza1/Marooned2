@@ -297,7 +297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grippy: 0
-  hackable: 1
   isOn: 0
   flamePrefab: {fileID: 7251360327233600918, guid: e3387e55eb3c2564b8be3efcbb3471fa,
     type: 3}
@@ -370,7 +369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1909292596466090360}
   m_Layer: 0
-  m_Name: Destination
+  m_Name: DESTINATION
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
