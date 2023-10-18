@@ -18,6 +18,7 @@ public class WayPointFollower : MonoBehaviour
 
     void Update()
     {
+
         //checking waypoint to move to
         if(Vector3.Distance(transform.position, wayPoints[currentWayPointIndex].transform.position) < .1f)
         {
@@ -27,10 +28,12 @@ public class WayPointFollower : MonoBehaviour
             if(currentWayPointIndex >= wayPoints.Length)
             {
                 currentWayPointIndex = 0;
+        
             }
         }
 
-        //making it move
+        //making it move  
+        //making it move  
         transform.position = Vector3.MoveTowards(transform.position, wayPoints[currentWayPointIndex].transform.position, speed * Time.deltaTime);
     }
 }
