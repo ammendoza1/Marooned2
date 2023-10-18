@@ -6,7 +6,6 @@ public class Flamethrower : MonoBehaviour
 {   
     [Header("=== PRIMARY VARIABLES ===")]
     public bool grippy = false;
-    public bool hackable = true;
     public bool isOn = false;
 
     [Header("=== MAIN VARIABLES ===")]
